@@ -1,4 +1,5 @@
 # Noremember
+This is the JavaScript based google chrome Extension which enables you to forget your passwords and let the computer do this job for you.
  you can now remember your passwords by only just one click. if you forget your password of perticular site let's suppose Codechef.com you can know your password by clicking whith empty password on login button if you previously have logged in your codechef with correct password this extension would give u that password in alert box on that page only. Give it a try buddies.  
 
 ## Getting Started
