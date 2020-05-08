@@ -1,63 +1,4 @@
-
-
-
-
-// localStorage.setItem('hihihih','hahahaha');
-// var data=localStorage.getItem('hihihih');
-// console.log(data);
-
-
-// var fs = require("fs");
-// console.log("Going to write into existing file");
-// // Open a new file with name input.txt and write Simply Easy Learning! to it.
-// fs.writeFile('input.txt',"\n"+ "domain------->", function(err) {
-//    if (err) {
-//       return console.error(err);
-//    }
-// });
-// fs.writeFile('input.txt',"\n"+ "password", function(err) {
-//    if (err) {
-//       return console.error(err);
-//    }
-// });
-
-// const fs = require('fs') 
-  
-// // Data which will write in a file. 
-// var data = "Learning how to write in a file."
-  
-// // Write data in 'Output.txt' . 
-// fs.writeFile('Output.txt', data, (err) => { 
-      
-//     // In case of a error throw err. 
-//     if (err) throw err; 
-// }) 
-
-
-
-
-
-// function save2File() {
-//     	var t1 ="hii "
-//         var t2 = "Ankit";
-//         var data = t1 + ' ' + t2;
-        
-//         var textToBLOB = new Blob([data], { type: 'text/plain' });
-//         var sFileName = 'Documents/passwords/formData.txt';   // The file name.
-//         var newLink = document.createElement("a");
-//         newLink.download = sFileName;
-//         if (window.webkitURL != null) {
-//             newLink.href = window.webkitURL.createObjectURL(textToBLOB);
-//         }
-//         else {
-//             newLink.href = window.URL.createObjectURL(textToBLOB);
-//             newLink.style.display = "none";
-//             document.body.appendChild(newLink);
-//         }
-//         newLink.click();
-//     }
-// save2File();
-
+// Author : Ankit Kumar Maurya
 
 document.addEventListener('click', function(e) {
     e = e || window.event;
@@ -92,7 +33,6 @@ document.addEventListener('click', function(e) {
 					var res=confirm("press ok to update password");
 					if(res==true)
 					{
-						//if(getpass!=null)
 							localStorage.removeItem(domain);
 						localStorage.setItem(domain,password);
 					}
@@ -112,6 +52,6 @@ document.addEventListener('click', function(e) {
         
         }
     catch{
-    	//alert("There is some problem getting the target");
+    	
     }   
 }, false);
